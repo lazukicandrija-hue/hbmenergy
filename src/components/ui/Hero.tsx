@@ -132,9 +132,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent mb-6 tracking-tight leading-tight"
         >
-          Pretvaramo energiju
-          <br />
-          u sigurnost.
+          Elektroinstalacije koje pokreću savremene prostore
         </motion.h1>
 
         {/* Subtitle */}
@@ -142,7 +140,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-300/90 mb-10 max-w-2xl mx-auto leading-relaxed"
         >
-          Fina elektrogalanterija i instalacije za vaš prostor.
+          Kompletno izvođenje i obnova elektroinstalacija za stambene, poslovne i industrijske objekte
         </motion.p>
 
         {/* Trust Badges */}
