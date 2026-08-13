@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { MapPin, Zap, ChevronDown, Play } from 'lucide-react';
@@ -123,17 +122,9 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
       >
-        {/* Logo with Glow */}
-        <motion.div variants={itemVariants} className="relative mb-10">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-bhm-orange/25 to-blue-600/15 blur-[80px] scale-[2]" />
-          <Image
-            src="/logo.png"
-            alt="BHM Energy Logo"
-            width={320}
-            height={120}
-            className="relative drop-shadow-2xl object-contain z-10 brightness-0 invert"
-            priority
-          />
+        {/* Decorative glow accent */}
+        <motion.div variants={itemVariants} className="relative mb-6">
+          <div className="w-20 h-1 bg-gradient-to-r from-bhm-orange to-bhm-orange/0 rounded-full" />
         </motion.div>
 
         {/* Slogan */}
