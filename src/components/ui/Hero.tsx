@@ -163,18 +163,19 @@ export default function Hero() {
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
           </Link>
         </motion.div>
-      </motion.div>
 
-      {/* Scroll Down Indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 z-10"
-        animate={{ y: [0, 12, 0] }}
-        transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Link href="#services" aria-label="Scroll down" className="flex flex-col items-center gap-2">
-          <span className="text-xs uppercase tracking-[0.2em] text-gray-400 font-medium">Saznajte više</span>
-          <ChevronDown className="w-6 h-6 opacity-70 hover:opacity-100 hover:text-white transition-all cursor-pointer" />
-        </Link>
+        {/* Scroll Down Indicator */}
+        <motion.div
+          variants={itemVariants}
+          className="mt-16 text-white/60"
+          animate={{ y: [0, 12, 0] }}
+          transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Link href="#services" aria-label="Scroll down" className="flex flex-col items-center gap-2">
+            <span className="text-xs uppercase tracking-[0.2em] text-gray-400 font-medium">Saznajte više</span>
+            <ChevronDown className="w-6 h-6 opacity-70 hover:opacity-100 hover:text-white transition-all cursor-pointer" />
+          </Link>
+        </motion.div>
       </motion.div>
 
       {/* Bottom gradient fade for smooth section transition */}
