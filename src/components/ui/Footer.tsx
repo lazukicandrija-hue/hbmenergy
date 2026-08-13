@@ -13,11 +13,11 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start gap-4">
             <Link href="/">
               <Image 
-                src="/logo.png" 
+                src="/logo-white.svg" 
                 alt="BHM Energy Logo" 
                 width={160} 
                 height={44} 
-                className="h-10 w-auto object-contain brightness-0 invert"
+                className="h-10 w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-gray-500">

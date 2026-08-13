@@ -66,11 +66,11 @@ export default function Header() {
               className="cursor-pointer"
             >
               <Image
-                src="/logo.png"
+                src="/logo-white.svg"
                 alt="BHM Energy"
                 width={180}
                 height={50}
-                className="h-[44px] w-auto object-contain brightness-0 invert"
+                className="h-[44px] w-auto object-contain"
                 priority
               />
             </a>
