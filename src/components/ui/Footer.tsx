@@ -15,9 +15,9 @@ export default function Footer() {
               <Image 
                 src="/logo.png" 
                 alt="BHM Energy Logo" 
-                width={120} 
-                height={32} 
-                className="h-8 w-auto object-contain"
+                width={160} 
+                height={44} 
+                className="h-10 w-auto object-contain brightness-0 invert"
               />
             </Link>
             <p className="text-sm text-gray-500">
@@ -26,12 +26,15 @@ export default function Footer() {
           </div>
 
           {/* Right side */}
-          <nav className="flex gap-6">
+          <nav className="flex flex-wrap justify-center gap-6">
             <Link href="#services" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Usluge
             </Link>
-            <Link href="#about" className="text-sm text-gray-500 hover:text-bhm-orange transition">
-              O nama
+            <Link href="#blog" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+              Blog
+            </Link>
+            <Link href="#faq" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+              Najčešća pitanja
             </Link>
             <Link href="#contact" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Kontakt
