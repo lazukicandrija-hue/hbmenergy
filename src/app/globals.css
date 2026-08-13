@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-bhm-dark text-gray-100 font-sans;
+  }
+
+  ::selection {
+    @apply bg-bhm-orange/30 text-white;
+  }
+}
+
+@layer components {
+  /* Glowing border card */
+  .glow-card {
+    @apply relative overflow-hidden rounded-2xl bg-bhm-dark-50/50 backdrop-blur-sm border border-white/5;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .glow-card::before {
+    content: '';
+    @apply absolute inset-0 rounded-2xl opacity-0;
+    background: linear-gradient(135deg, rgba(241, 90, 41, 0.15), rgba(26, 54, 93, 0.15));
+    transition: opacity 0.4s ease;
+  }
+
+  .glow-card:hover::before {
+    @apply opacity-100;
+  }
+
+  .glow-card::after {
+    content: '';
+    @apply absolute -inset-[1px] rounded-2xl opacity-0;
+    background: linear-gradient(135deg, #F15A29, #1A365D, #F15A29);
+    z-index: -1;
+    transition: opacity 0.4s ease;
+  }
+
+  .glow-card:hover::after {
+    @apply opacity-100;
+  }
+
+  .glow-card:hover {
+    @apply border-transparent;
+    box-shadow: 0 0 30px rgba(241, 90, 41, 0.1), 0 0 60px rgba(26, 54, 93, 0.05);
+  }
+
+  /* Electric glow button */
+  .btn-electric {
+    @apply relative inline-flex items-center justify-center px-8 py-4 font-semibold text-white rounded-xl overflow-hidden;
+    background: linear-gradient(135deg, #F15A29, #D9400F);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-electric::before {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(135deg, #F37B57, #F15A29);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-electric:hover::before {
+    opacity: 1;
+  }
+
+  .btn-electric:hover {
+    box-shadow: 0 0 20px rgba(241, 90, 41, 0.4), 0 0 40px rgba(241, 90, 41, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .btn-electric span {
+    @apply relative z-10;
+  }
+
+  /* Neon text glow */
+  .neon-glow {
+    text-shadow: 0 0 10px rgba(241, 90, 41, 0.5), 0 0 20px rgba(241, 90, 41, 0.3);
+  }
+
+  /* Section styling */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Circuit line animation */
+  .circuit-line {
+    stroke-dasharray: 8 4;
+    animation: circuit-dash 20s linear infinite;
+  }
+
+  @keyframes circuit-dash {
+    to {
+      stroke-dashoffset: -100;
+    }
+  }
+
+  /* Grid background pattern */
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgba(241, 90, 41, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(241, 90, 41, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-bhm-dark;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-bhm-navy-500/50 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-bhm-navy-400/60;
+  }
+}
