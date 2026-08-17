@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "elektroinstalacije-u-poslovnim-i-industrijskim-objektima",
+    title: "Elektroinstalacije u poslovnim i industrijskim objektima: šta je važno planirati na vreme",
+    excerpt: "Za razliku od stambenih objekata, poslovni i industrijski objekti često zahtevaju složenije elektro sisteme, veće kapacitete, više priključnih mesta i pažljivo planiranje.",
+    image: "/images/image_circuit_board.jpg",
+    date: "17. Avg 2026.",
+    readTime: "5 min čitanja",
+    slug: "/blog/elektroinstalacije-u-poslovnim-i-industrijskim-objektima"
+  },
+  {
     id: "elektroinstalacije-u-novogradnji",
     title: "Elektroinstalacije u novogradnji: šta investitor treba da planira na vreme",
     excerpt: "Elektroinstalacije su jedan od ključnih sistema svakog objekta, iako se njihov značaj često primeti tek kada nastane problem. Saznajte zašto je važno planirati na vreme.",
