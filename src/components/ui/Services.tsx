@@ -82,7 +82,7 @@ const services = [
     title: "Gromobranska zaštita i uzemljenje",
     short: "Projektovanje i izvođenje sistema zaštite objekta od atmosferskog pražnjenja, uz odgovarajuće uzemljenje i izjednačavanje potencijala.",
     icon: CloudLightning,
-    image: "/images/image_industrial_power.jpg",
+    image: "/images/image_lightning_rod.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Zaštita objekta počinje pravilno izvedenim sistemom.</h4>
@@ -128,7 +128,7 @@ const services = [
     title: "Servis i održavanje",
     short: "Redovno i interventno održavanje elektroinstalacija, dijagnostika problema, otklanjanje kvarova i briga o pouzdanosti sistema.",
     icon: Wrench,
-    image: "/images/image_circuit_board.jpg",
+    image: "/images/image_maintenance.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Pouzdane instalacije zahtevaju kontinuiranu brigu.</h4>
