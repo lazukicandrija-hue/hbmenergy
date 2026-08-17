@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const projects = [
-  { id: 1, image: '/images/real_electrical_board.jpg', title: 'Šemiranje razvodnih ormara' },
-  { id: 2, image: '/images/real_cable_trays.jpg', title: 'Industrijske instalacije i kablovski regali' },
-  { id: 3, image: '/images/real_wall_wiring.jpg', title: 'Stambeni objekti - gruba faza' },
-  { id: 4, image: '/images/real_panel_testing.jpg', title: 'Ispitivanje i puštanje u rad' },
-  { id: 5, image: '/images/real_rough_wiring.jpg', title: 'Razvod instalacija u novogradnji' },
-  { id: 6, image: '/images/real_grounding_trench.jpg', title: 'Uzemljenje i podzemni vodovi' },
+  { id: 1, image: '/images/ordinary_board.jpg', title: 'Šemiranje razvodnih ormara' },
+  { id: 2, image: '/images/ordinary_trays.jpg', title: 'Industrijske instalacije i kablovski regali' },
+  { id: 3, image: '/images/ordinary_wall.jpg', title: 'Stambeni objekti - gruba faza' },
+  { id: 4, image: '/images/ordinary_panel.jpg', title: 'Ispitivanje i puštanje u rad' },
+  { id: 5, image: '/images/ordinary_rough.jpg', title: 'Razvod instalacija u novogradnji' },
+  { id: 6, image: '/images/ordinary_trench.jpg', title: 'Uzemljenje i podzemni vodovi' },
 ];
 
 export default function Portfolio() {
