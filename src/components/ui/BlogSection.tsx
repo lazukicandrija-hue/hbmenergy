@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "jaka-i-slaba-struja",
+    title: "Jaka i slaba struja – koja je razlika?",
+    excerpt: "Kada se govori o elektroinstalacijama, često se koriste izrazi jaka i slaba struja. Saznajte koja je razlika i zašto su oba sistema ključna za vaš objekat.",
+    image: "/images/image_portfolio_2.jpg",
+    date: "17. Avg 2026.",
+    readTime: "3 min čitanja",
+    slug: "/blog/jaka-i-slaba-struja"
+  },
+  {
     id: "kako-se-formira-cena",
     title: "Kako se formira cena elektroinstalacionih radova?",
     excerpt: "Kada planirate elektroinstalacione radove, jedno od prvih pitanja je: Koliko će to koštati? Saznajte od kojih faktora zavisi konačna ponuda.",
