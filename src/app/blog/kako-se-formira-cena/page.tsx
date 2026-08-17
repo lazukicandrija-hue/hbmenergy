@@ -14,7 +14,7 @@ export default function BlogPost() {
       <div className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 border-b border-white/5">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/portfolio_1.jpg"
+            src="/images/blog_pricing.jpg"
             alt="Kako se formira cena elektroinstalacionih radova?"
             fill
             className="object-cover opacity-20"

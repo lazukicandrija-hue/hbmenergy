@@ -14,7 +14,7 @@ export default function BlogPost() {
       <div className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 border-b border-white/5">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/portfolio_5.jpg"
+            src="/images/blog_project_execution.jpg"
             alt="Od projekta do izvedenih radova: kako izgleda proces realizacije elektroinstalacija?"
             fill
             className="object-cover opacity-20"

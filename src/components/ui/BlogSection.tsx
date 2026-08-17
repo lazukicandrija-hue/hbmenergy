@@ -11,7 +11,7 @@ const blogPosts = [
     id: "proces-realizacije-elektroinstalacija",
     title: "Od projekta do izvedenih radova: kako izgleda proces realizacije elektroinstalacija?",
     excerpt: "Kvalitetno izvedene elektroinstalacije rezultat su dobrog planiranja, koordinacije i stručnog izvođenja. Saznajte kako teče ceo proces od početka do kraja.",
-    image: "/images/portfolio_5.jpg",
+    image: "/images/blog_project_execution.jpg",
     date: "17. Avg 2026.",
     readTime: "5 min čitanja",
     slug: "/blog/proces-realizacije-elektroinstalacija"
@@ -20,7 +20,7 @@ const blogPosts = [
     id: "kako-pravilno-planirati-rasvetu",
     title: "Kako pravilno planirati rasvetu u stanu ili poslovnom prostoru?",
     excerpt: "Rasveta je jedan od elemenata prostora koji direktno utiče na njegovu funkcionalnost i atmosferu. Saznajte kako da je pravilno isplanirate.",
-    image: "/images/portfolio_3.jpg",
+    image: "/images/blog_lighting_plan.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/kako-pravilno-planirati-rasvetu"
@@ -38,7 +38,7 @@ const blogPosts = [
     id: "kako-se-formira-cena",
     title: "Kako se formira cena elektroinstalacionih radova?",
     excerpt: "Kada planirate elektroinstalacione radove, jedno od prvih pitanja je: Koliko će to koštati? Saznajte od kojih faktora zavisi konačna ponuda.",
-    image: "/images/portfolio_1.jpg",
+    image: "/images/blog_pricing.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/kako-se-formira-cena"
@@ -47,7 +47,7 @@ const blogPosts = [
     id: "renovirate-stan-elektroinstalacije",
     title: "Renovirate stan? Ovo treba da znate o elektroinstalacijama",
     excerpt: "Renoviranje stana je prilika da prostor prilagodite svojim potrebama, ali i pravi trenutak da proverite da li postojeće elektroinstalacije mogu da odgovore.",
-    image: "/images/portfolio_4.jpg",
+    image: "/images/blog_renovation.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/renovirate-stan-elektroinstalacije"
