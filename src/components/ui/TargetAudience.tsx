@@ -11,7 +11,7 @@ const audiences = [
     title: "Poslovni objekti",
     short: "Industrije • Hale • Kancelarije • Lokali • Poslovni prostori",
     icon: Building2,
-    image: "/images/image_industrial_power.jpg",
+    image: "/images/audience_poslovni.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Industrije • Hale • Kancelarije • Lokali • Poslovni prostori</h4>
@@ -26,7 +26,7 @@ const audiences = [
     title: "Investitori",
     short: "Stambene i stambeno-poslovne zgrade • Novogradnja • Projekti u izgradnji",
     icon: HardHat,
-    image: "/images/image_lightning_rod.jpg",
+    image: "/images/real_rough_wiring.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Stambene i stambeno-poslovne zgrade • Novogradnja • Projekti u izgradnji</h4>
@@ -41,7 +41,7 @@ const audiences = [
     title: "Stambeni objekti",
     short: "Stanovi • Kuće • Vikendice • Adaptacije i renoviranja",
     icon: Home,
-    image: "/images/image_fine_fixtures.jpg",
+    image: "/images/blog_renovation.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Stanovi • Kuće • Vikendice • Adaptacije i renoviranja</h4>
