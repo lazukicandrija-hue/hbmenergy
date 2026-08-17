@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const projects = [
-  { id: 1, image: '/images/portfolio_1.jpg', title: 'Stambeni kompleks' },
-  { id: 2, image: '/images/portfolio_2.jpg', title: 'Poslovni prostor' },
-  { id: 3, image: '/images/portfolio_3.jpg', title: 'Kupatilo' },
-  { id: 4, image: '/images/portfolio_4.jpg', title: 'Kuhinja' },
-  { id: 5, image: '/images/portfolio_5.jpg', title: 'Fasadna rasveta' },
-  { id: 6, image: '/images/portfolio_6.jpg', title: 'Smart Home' },
+  { id: 1, image: '/images/real_electrical_board.jpg', title: 'Šemiranje razvodnih ormara' },
+  { id: 2, image: '/images/real_cable_trays.jpg', title: 'Industrijske instalacije i kablovski regali' },
+  { id: 3, image: '/images/real_wall_wiring.jpg', title: 'Stambeni objekti - gruba faza' },
+  { id: 4, image: '/images/real_panel_testing.jpg', title: 'Ispitivanje i puštanje u rad' },
+  { id: 5, image: '/images/real_rough_wiring.jpg', title: 'Razvod instalacija u novogradnji' },
+  { id: 6, image: '/images/real_grounding_trench.jpg', title: 'Uzemljenje i podzemni vodovi' },
 ];
 
 export default function Portfolio() {
