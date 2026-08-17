@@ -82,6 +82,10 @@ const faqData = [
       {
         q: "15. Kako mogu da zatražim ponudu?",
         a: "Pošaljite nam upit putem kontakt forme, e-maila ili telefona. Uz osnovne informacije o objektu i željenim radovima, poželjno je dostaviti projekat, predmer ili drugu dostupnu dokumentaciju. Naš tim će vas kontaktirati radi dogovora o narednim koracima."
+      },
+      {
+        q: "16. Na kojoj teritoriji poslujete?",
+        a: "BHM Energy realizuje projekte na teritoriji cele Srbije, u zavisnosti od vrste i obima radova."
       }
     ]
   }
