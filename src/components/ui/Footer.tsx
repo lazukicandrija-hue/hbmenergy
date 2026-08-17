@@ -8,8 +8,8 @@ export default function Footer() {
     <footer className="border-t border-white/5 bg-bhm-dark py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top part */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          {/* Left side */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mb-4">
+          {/* Brand */}
           <div className="flex flex-col items-center md:items-start gap-4">
             <Link href="/">
               <Image 
@@ -20,26 +20,41 @@ export default function Footer() {
                 className="h-10 w-auto object-contain"
               />
             </Link>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-500 text-center md:text-left">
               Elektroinstalacije i fina galanterija
             </p>
           </div>
 
-          {/* Right side */}
-          <nav className="flex flex-wrap justify-center gap-6">
-            <Link href="#services" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+          {/* Navigacija */}
+          <div className="flex flex-col items-center md:items-start gap-3">
+            <h4 className="text-white font-bold tracking-wider mb-2">NAVIGACIJA</h4>
+            <Link href="/#services" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Usluge
             </Link>
-            <Link href="#blog" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+            <Link href="/#blog" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Blog
             </Link>
-            <Link href="#faq" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+            <Link href="/#faq" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Najčešća pitanja
             </Link>
-            <Link href="#contact" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+            <Link href="/#contact" className="text-sm text-gray-500 hover:text-bhm-orange transition">
               Kontakt
             </Link>
-          </nav>
+          </div>
+
+          {/* Pravno */}
+          <div className="flex flex-col items-center md:items-start gap-3">
+            <h4 className="text-white font-bold tracking-wider mb-2">PRAVNO</h4>
+            <Link href="/politika-privatnosti" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+              Politika Privatnosti
+            </Link>
+            <Link href="/uslovi-koriscenja" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+              Uslovi Korišćenja
+            </Link>
+            <Link href="/kolacici" className="text-sm text-gray-500 hover:text-bhm-orange transition">
+              Kolačići
+            </Link>
+          </div>
         </div>
 
         {/* Divider */}
