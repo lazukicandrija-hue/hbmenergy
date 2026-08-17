@@ -57,25 +57,35 @@ export default function Contact() {
                 <div className="w-12 h-12 rounded-xl bg-bhm-orange/10 flex items-center justify-center">
                   <Phone className="text-bhm-orange w-6 h-6" />
                 </div>
-                <div className="text-gray-300">+381 60 123 4567</div>
+                <div className="text-gray-300">+381 69 2 737 737</div>
               </div>
               
               <div className="flex items-center gap-4 py-4">
-                <div className="w-12 h-12 rounded-xl bg-bhm-orange/10 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-xl bg-bhm-orange/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="text-bhm-orange w-6 h-6" />
                 </div>
-                <div className="text-gray-300">Novi Sad, Srbija</div>
+                <div className="text-gray-300">
+                  Rumenački put 38<br />
+                  Novi Sad, Srbija
+                </div>
               </div>
             </div>
 
-            <div className="mt-4 mb-8 h-48 w-full rounded-xl bg-bhm-dark/50 border border-white/10 flex items-center justify-center overflow-hidden relative">
-              <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-bhm-orange/20 via-transparent to-transparent"></div>
-              <MapPin className="w-10 h-10 text-bhm-orange/40" />
+            <div className="flex items-start gap-4 py-4 bg-white/5 rounded-xl px-6 mb-6">
+              <Clock className="text-bhm-orange w-6 h-6 flex-shrink-0 mt-1" />
+              <div className="text-gray-300 font-medium space-y-1">
+                <p className="text-white mb-2">Radno vreme</p>
+                <p className="text-sm">Pon - Pet: 08:00 - 16:00</p>
+                <p className="text-sm">Subota: 08:00 - 14:00</p>
+                <p className="text-sm">Nedelja: Neradni dan</p>
+              </div>
             </div>
 
-            <div className="flex items-center gap-4 py-4 bg-white/5 rounded-xl px-6">
-              <Clock className="text-bhm-orange w-6 h-6 flex-shrink-0" />
-              <div className="text-gray-300 font-medium">Radno vreme: Pon-Pet 08:00-18:00</div>
+            <div className="py-4 bg-white/5 rounded-xl px-6 text-sm text-gray-400 leading-relaxed border border-white/5">
+              <strong className="text-gray-300 block mb-1">COAL PROMET DOO PREDUZEĆE ZA TRGOVINU I USLUGE, NOVI SAD</strong>
+              OGRANAK BHM Energy<br />
+              PIB: 104234254<br />
+              MB: 20120754
             </div>
           </motion.div>
 

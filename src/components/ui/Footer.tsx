@@ -46,14 +46,14 @@ export default function Footer() {
         <div className="border-t border-white/5 my-8"></div>
 
         {/* Bottom part */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-gray-600">
+        <div className="flex flex-col md:flex-row justify-between items-end gap-4">
+          <p className="text-xs text-gray-600 pb-1">
             &copy; 2026 BHM Energy. Sva prava zadržana.
           </p>
-          <div className="flex gap-4">
-            <p className="text-xs text-gray-600">
-              PIB: XXXXXXXXX
-            </p>
+          <div className="flex flex-col items-center md:items-end gap-1 mt-4 md:mt-0">
+            <p className="text-xs text-gray-500 font-medium text-center md:text-right">COAL PROMET DOO PREDUZEĆE ZA TRGOVINU I USLUGE, NOVI SAD</p>
+            <p className="text-xs text-gray-600 text-center md:text-right">OGRANAK BHM Energy</p>
+            <p className="text-xs text-gray-600 text-center md:text-right">PIB: 104234254 | MB: 20120754</p>
           </div>
         </div>
       </div>
