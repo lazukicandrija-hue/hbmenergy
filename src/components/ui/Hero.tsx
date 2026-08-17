@@ -157,7 +157,7 @@ export default function Hero() {
           className="flex items-center gap-2 text-sm text-gray-200 mb-10 bg-white/10 backdrop-blur-md px-6 py-2.5 rounded-full border border-white/20 shadow-xl shadow-black/20"
         >
           <MapPin className="w-4 h-4 text-bhm-orange" />
-          <span className="font-medium">Novi Sad • Beograd • Cela Srbija</span>
+          <span className="font-medium">Srbija</span>
           <Zap className="w-4 h-4 text-blue-400 ml-1 drop-shadow-[0_0_5px_rgba(59,130,246,0.8)]" />
         </motion.div>
 
