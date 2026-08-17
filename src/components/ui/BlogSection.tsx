@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "proces-realizacije-elektroinstalacija",
+    title: "Od projekta do izvedenih radova: kako izgleda proces realizacije elektroinstalacija?",
+    excerpt: "Kvalitetno izvedene elektroinstalacije rezultat su dobrog planiranja, koordinacije i stručnog izvođenja. Saznajte kako teče ceo proces od početka do kraja.",
+    image: "/images/image_portfolio_5.jpg",
+    date: "17. Avg 2026.",
+    readTime: "5 min čitanja",
+    slug: "/blog/proces-realizacije-elektroinstalacija"
+  },
+  {
     id: "kako-pravilno-planirati-rasvetu",
     title: "Kako pravilno planirati rasvetu u stanu ili poslovnom prostoru?",
     excerpt: "Rasveta je jedan od elemenata prostora koji direktno utiče na njegovu funkcionalnost i atmosferu. Saznajte kako da je pravilno isplanirate.",
