@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "kako-pravilno-planirati-rasvetu",
+    title: "Kako pravilno planirati rasvetu u stanu ili poslovnom prostoru?",
+    excerpt: "Rasveta je jedan od elemenata prostora koji direktno utiče na njegovu funkcionalnost i atmosferu. Saznajte kako da je pravilno isplanirate.",
+    image: "/images/image_portfolio_3.jpg",
+    date: "17. Avg 2026.",
+    readTime: "4 min čitanja",
+    slug: "/blog/kako-pravilno-planirati-rasvetu"
+  },
+  {
     id: "jaka-i-slaba-struja",
     title: "Jaka i slaba struja – koja je razlika?",
     excerpt: "Kada se govori o elektroinstalacijama, često se koriste izrazi jaka i slaba struja. Saznajte koja je razlika i zašto su oba sistema ključna za vaš objekat.",
