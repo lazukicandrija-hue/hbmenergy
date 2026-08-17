@@ -101,17 +101,10 @@ const TargetAudience = () => {
                 onClick={() => setSelectedAudience(audience)}
                 className="glow-card rounded-2xl p-0 overflow-hidden group bg-gray-900 border border-gray-800 cursor-pointer flex flex-col h-full"
               >
-                <div className="relative overflow-hidden h-56 w-full shrink-0">
-                  <Image
-                    src={audience.image}
-                    alt={audience.title}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  {/* Dark gradient overlay so icon is visible */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-90"></div>
+                <div className="relative overflow-hidden h-56 w-full shrink-0 bg-gradient-to-r from-bhm-orange/40 via-gray-800 to-gray-900">
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                   
-                  <div className="absolute bottom-6 left-6 text-5xl opacity-40 group-hover:opacity-100 transition-opacity drop-shadow-lg filter grayscale group-hover:grayscale-0">
+                  <div className="absolute bottom-6 left-6 text-5xl drop-shadow-lg">
                     {audience.id}
                   </div>
                 </div>
@@ -156,13 +149,7 @@ const TargetAudience = () => {
               </button>
 
               {/* Modal Image Header */}
-              <div className="relative h-48 w-full">
-                <Image
-                  src={selectedAudience.image}
-                  alt={selectedAudience.title}
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative h-48 w-full bg-gradient-to-r from-bhm-orange/40 via-gray-800 to-gray-900">
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 flex items-center gap-4">
                   <div className="bg-bhm-orange p-3 rounded-xl shadow-lg text-2xl">
