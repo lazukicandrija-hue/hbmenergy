@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "renovirate-stan-elektroinstalacije",
+    title: "Renovirate stan? Ovo treba da znate o elektroinstalacijama",
+    excerpt: "Renoviranje stana je prilika da prostor prilagodite svojim potrebama, ali i pravi trenutak da proverite da li postojeće elektroinstalacije mogu da odgovore.",
+    image: "/images/image_portfolio_4.jpg",
+    date: "17. Avg 2026.",
+    readTime: "4 min čitanja",
+    slug: "/blog/renovirate-stan-elektroinstalacije"
+  },
+  {
     id: "elektroinstalacije-u-poslovnim-i-industrijskim-objektima",
     title: "Elektroinstalacije u poslovnim i industrijskim objektima: šta je važno planirati na vreme",
     excerpt: "Za razliku od stambenih objekata, poslovni i industrijski objekti često zahtevaju složenije elektro sisteme, veće kapacitete, više priključnih mesta i pažljivo planiranje.",
