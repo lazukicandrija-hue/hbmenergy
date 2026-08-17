@@ -43,7 +43,7 @@ const Services = () => {
             viewport={{ once: true, amount: 0.3 }}
             className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400"
           >
-            Naše Usluge
+            Naše usluge
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: -20 }}
@@ -52,7 +52,7 @@ const Services = () => {
             transition={{ delay: 0.1 }}
             className="text-gray-400 mt-4 max-w-2xl mx-auto"
           >
-            Kompletna elektro rešenja za vaš dom i posao
+            Kompletna elektroenergetska rešenja – od projektovanja do izvođenja, puštanja u rad i održavanja.
           </motion.p>
         </div>
 
