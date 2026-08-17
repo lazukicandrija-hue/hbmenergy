@@ -50,7 +50,7 @@ export default function Contact() {
                 <div className="w-12 h-12 rounded-xl bg-bhm-orange/10 flex items-center justify-center">
                   <Mail className="text-bhm-orange w-6 h-6" />
                 </div>
-                <div className="text-gray-300">info@bhmenergy.rs</div>
+                <div className="text-gray-300">office@bhmenergy.rs</div>
               </div>
               
               <div className="flex items-center gap-4 py-4 border-b border-white/5">
