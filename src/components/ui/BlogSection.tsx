@@ -11,7 +11,7 @@ const blogPosts = [
     id: "proces-realizacije-elektroinstalacija",
     title: "Od projekta do izvedenih radova: kako izgleda proces realizacije elektroinstalacija?",
     excerpt: "Kvalitetno izvedene elektroinstalacije rezultat su dobrog planiranja, koordinacije i stručnog izvođenja. Saznajte kako teče ceo proces od početka do kraja.",
-    image: "/images/image_portfolio_5.jpg",
+    image: "/images/portfolio_5.jpg",
     date: "17. Avg 2026.",
     readTime: "5 min čitanja",
     slug: "/blog/proces-realizacije-elektroinstalacija"
@@ -20,7 +20,7 @@ const blogPosts = [
     id: "kako-pravilno-planirati-rasvetu",
     title: "Kako pravilno planirati rasvetu u stanu ili poslovnom prostoru?",
     excerpt: "Rasveta je jedan od elemenata prostora koji direktno utiče na njegovu funkcionalnost i atmosferu. Saznajte kako da je pravilno isplanirate.",
-    image: "/images/image_portfolio_3.jpg",
+    image: "/images/portfolio_3.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/kako-pravilno-planirati-rasvetu"
@@ -29,7 +29,7 @@ const blogPosts = [
     id: "jaka-i-slaba-struja",
     title: "Jaka i slaba struja – koja je razlika?",
     excerpt: "Kada se govori o elektroinstalacijama, često se koriste izrazi jaka i slaba struja. Saznajte koja je razlika i zašto su oba sistema ključna za vaš objekat.",
-    image: "/images/image_portfolio_2.jpg",
+    image: "/images/portfolio_2.jpg",
     date: "17. Avg 2026.",
     readTime: "3 min čitanja",
     slug: "/blog/jaka-i-slaba-struja"
@@ -38,7 +38,7 @@ const blogPosts = [
     id: "kako-se-formira-cena",
     title: "Kako se formira cena elektroinstalacionih radova?",
     excerpt: "Kada planirate elektroinstalacione radove, jedno od prvih pitanja je: Koliko će to koštati? Saznajte od kojih faktora zavisi konačna ponuda.",
-    image: "/images/image_portfolio_1.jpg",
+    image: "/images/portfolio_1.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/kako-se-formira-cena"
@@ -47,7 +47,7 @@ const blogPosts = [
     id: "renovirate-stan-elektroinstalacije",
     title: "Renovirate stan? Ovo treba da znate o elektroinstalacijama",
     excerpt: "Renoviranje stana je prilika da prostor prilagodite svojim potrebama, ali i pravi trenutak da proverite da li postojeće elektroinstalacije mogu da odgovore.",
-    image: "/images/image_portfolio_4.jpg",
+    image: "/images/portfolio_4.jpg",
     date: "17. Avg 2026.",
     readTime: "4 min čitanja",
     slug: "/blog/renovirate-stan-elektroinstalacije"
@@ -121,7 +121,6 @@ const BlogSection = () => {
                 
                 <div className="p-6 md:p-8 flex flex-col flex-grow relative bg-gray-900">
                   <div className="flex items-center gap-4 text-xs font-medium text-gray-500 mb-4 uppercase tracking-wider">
-                    <span className="flex items-center gap-1.5"><Calendar className="w-3.5 h-3.5" />{post.date}</span>
                     <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" />{post.readTime}</span>
                   </div>
                   

@@ -14,7 +14,7 @@ export default function BlogPost() {
       <div className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 border-b border-white/5">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/image_portfolio_5.jpg"
+            src="/images/portfolio_5.jpg"
             alt="Od projekta do izvedenih radova: kako izgleda proces realizacije elektroinstalacija?"
             fill
             className="object-cover opacity-20"
@@ -34,10 +34,6 @@ export default function BlogPost() {
           </h1>
           
           <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>17. Avgust 2026.</span>
-            </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
               <span>5 min čitanja</span>

@@ -35,10 +35,6 @@ export default function BlogPost() {
           
           <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">
             <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>17. Avgust 2026.</span>
-            </div>
-            <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
               <span>5 min čitanja</span>
             </div>
