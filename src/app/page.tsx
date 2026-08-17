@@ -1,6 +1,7 @@
 import Header from '@/components/ui/Header';
 import Hero from '@/components/ui/Hero';
 import Services from '@/components/ui/Services';
+import TargetAudience from '@/components/ui/TargetAudience';
 import Process from '@/components/ui/Process';
 import Portfolio from '@/components/ui/Portfolio';
 import Contact from '@/components/ui/Contact';
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <TargetAudience />
       <Process />
       <Portfolio />
       <Contact />
