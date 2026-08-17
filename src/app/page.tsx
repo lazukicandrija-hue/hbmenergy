@@ -1,5 +1,6 @@
 import Header from '@/components/ui/Header';
 import Hero from '@/components/ui/Hero';
+import AboutUs from '@/components/ui/AboutUs';
 import Services from '@/components/ui/Services';
 import TargetAudience from '@/components/ui/TargetAudience';
 import Process from '@/components/ui/Process';
@@ -14,6 +15,7 @@ export default function Home() {
     <main className="relative overflow-hidden">
       <Header />
       <Hero />
+      <AboutUs />
       <Services />
       <TargetAudience />
       <Process />
