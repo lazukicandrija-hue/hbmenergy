@@ -8,6 +8,15 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    id: "kako-se-formira-cena",
+    title: "Kako se formira cena elektroinstalacionih radova?",
+    excerpt: "Kada planirate elektroinstalacione radove, jedno od prvih pitanja je: Koliko će to koštati? Saznajte od kojih faktora zavisi konačna ponuda.",
+    image: "/images/image_portfolio_1.jpg",
+    date: "17. Avg 2026.",
+    readTime: "4 min čitanja",
+    slug: "/blog/kako-se-formira-cena"
+  },
+  {
     id: "renovirate-stan-elektroinstalacije",
     title: "Renovirate stan? Ovo treba da znate o elektroinstalacijama",
     excerpt: "Renoviranje stana je prilika da prostor prilagodite svojim potrebama, ali i pravi trenutak da proverite da li postojeće elektroinstalacije mogu da odgovore.",
