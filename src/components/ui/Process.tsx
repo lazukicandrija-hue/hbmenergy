@@ -19,7 +19,7 @@ const steps = [
   {
     id: '03',
     title: 'Izvođenje',
-    description: 'Stručna montaža sa premium materijalima.',
+    description: 'Stručna montaža sa materijalima prema zahtevima projekta.',
     icon: Wrench,
   },
   {
