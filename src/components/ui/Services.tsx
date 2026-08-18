@@ -11,7 +11,7 @@ const services = [
     title: "Projektovanje i izvođenje instalacija",
     short: "Kompletna realizacija elektroinstalacija, od tehničkog rešenja i pripreme do stručnog izvođenja na objektu.",
     icon: PenTool,
-    image: "/images/image_industrial_power.jpg",
+    image: "/images/service_01.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Od ideje do funkcionalnog elektro sistema.</h4>
@@ -35,7 +35,7 @@ const services = [
     title: "Šemiranje objekata",
     short: "Izrada i realizacija elektro šema i povezivanje instalacija u skladu sa projektom, namenom i tehničkim zahtevima objekta.",
     icon: Network,
-    image: "/images/image_circuit_board.jpg",
+    image: "/images/service_02.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Precizno povezivanje svakog sistema.</h4>
@@ -58,7 +58,7 @@ const services = [
     title: "Slaba struja",
     short: "Sistemi slabe struje za bezbednost, komunikaciju, kontrolu i savremeno upravljanje objektom.",
     icon: Shield,
-    image: "/images/image_fine_fixtures.jpg",
+    image: "/images/service_03.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Pametni sistemi za bezbedniji i funkcionalniji prostor.</h4>
@@ -82,7 +82,7 @@ const services = [
     title: "Gromobranska zaštita i uzemljenje",
     short: "Projektovanje i izvođenje sistema zaštite objekta od atmosferskog pražnjenja, uz odgovarajuće uzemljenje i izjednačavanje potencijala.",
     icon: CloudLightning,
-    image: "/images/image_lightning_rod.jpg",
+    image: "/images/service_04.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Zaštita objekta počinje pravilno izvedenim sistemom.</h4>
@@ -105,7 +105,7 @@ const services = [
     title: "Rasveta",
     short: "Projektovanje i izvođenje funkcionalnih i dekorativnih sistema rasvete, prilagođenih nameni i karakteristikama prostora.",
     icon: Lightbulb,
-    image: "/images/image_led_lighting.jpg",
+    image: "/images/service_05.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Svetlo koje prati funkciju prostora.</h4>
@@ -128,7 +128,7 @@ const services = [
     title: "Servis i održavanje",
     short: "Redovno i interventno održavanje elektroinstalacija, dijagnostika problema, otklanjanje kvarova i briga o pouzdanosti sistema.",
     icon: Wrench,
-    image: "/images/image_maintenance.jpg",
+    image: "/images/service_06.jpg",
     details: (
       <>
         <h4 className="text-xl font-semibold mb-4 text-white">Pouzdane instalacije zahtevaju kontinuiranu brigu.</h4>
@@ -198,8 +198,14 @@ const Services = () => {
                 onClick={() => setSelectedService(service)}
                 className="glow-card rounded-2xl p-0 overflow-hidden group bg-gray-900 border border-gray-800 cursor-pointer flex flex-col h-full"
               >
-                <div className="relative overflow-hidden h-48 w-full shrink-0 bg-gradient-to-br from-bhm-orange/40 via-gray-800 to-gray-900">
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+                <div className="relative overflow-hidden h-48 w-full shrink-0">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-80"></div>
                   
                   <div className="absolute bottom-4 left-6 text-5xl font-black text-white/30 drop-shadow-lg">
                     {service.id}
@@ -249,7 +255,13 @@ const Services = () => {
               </button>
 
               {/* Modal Image Header */}
-              <div className="relative h-48 w-full bg-gradient-to-br from-bhm-orange/40 via-gray-800 to-gray-900">
+              <div className="relative h-48 w-full">
+                <Image
+                  src={selectedService.image}
+                  alt={selectedService.title}
+                  fill
+                  className="object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
                 <div className="absolute bottom-6 left-6 flex items-center gap-4">
                   <div className="bg-bhm-orange p-3 rounded-xl shadow-lg">
