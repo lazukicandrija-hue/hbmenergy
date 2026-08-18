@@ -138,9 +138,9 @@ export default function Hero() {
         {/* Slogan */}
         <motion.h1
           variants={itemVariants}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent mb-6 tracking-tight leading-tight drop-shadow-lg"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight leading-tight drop-shadow-lg"
         >
-          Elektroinstalacije koje pokreću savremene prostore
+          <span className="text-bhm-orange drop-shadow-[0_0_15px_rgba(241,90,41,0.3)]">Elektroinstalacije</span> <span className="bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">koje pokreću savremene prostore</span>
         </motion.h1>
 
         {/* Subtitle */}
