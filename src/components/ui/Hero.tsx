@@ -148,7 +148,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg md:text-xl text-gray-300/90 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-md"
         >
-          Kompletno izvođenje i obnova elektroinstalacija za stambene, poslovne i industrijske objekte
+          Kompletno izvođenje i obnova elektroinstalacija za industrijske, poslovne i stambene objekte
         </motion.p>
 
         {/* Trust Badges */}
