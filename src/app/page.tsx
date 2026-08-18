@@ -9,6 +9,7 @@ import BlogSection from '@/components/ui/BlogSection';
 import FAQ from '@/components/ui/FAQ';
 import Contact from '@/components/ui/Contact';
 import Footer from '@/components/ui/Footer';
+import ScrollToTop from '@/components/ui/ScrollToTop';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <FAQ />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }
