@@ -8,6 +8,9 @@ const projects = [
   { id: 2, image: '/images/real_project_2.jpg', title: 'Šemiranje razvodnih ormara' },
   { id: 3, image: '/images/real_project_3.jpg', title: 'Slaba struja i mrežne instalacije' },
   { id: 4, image: '/images/real_project_4.jpg', title: 'Upravljački i razvodni ormari' },
+  { id: 5, image: '/images/real_project_5.jpg', title: 'LED rasveta zajedničkih prostora' },
+  { id: 6, image: '/images/real_project_6.jpg', title: 'Rasveta hodnika stambene zgrade' },
+  { id: 7, image: '/images/real_project_7.jpg', title: 'Ulazni hol i rasveta objekta' },
 ];
 
 export default function Portfolio() {
