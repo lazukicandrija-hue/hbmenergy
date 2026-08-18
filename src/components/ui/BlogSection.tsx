@@ -27,7 +27,7 @@ const blogPosts = [
   },
   {
     id: "jaka-i-slaba-struja",
-    title: "Jaka i slaba struja – koja je razlika?",
+    title: "Jaka i slaba struja, koja je razlika?",
     excerpt: "Kada se govori o elektroinstalacijama, često se koriste izrazi jaka i slaba struja. Saznajte koja je razlika i zašto su oba sistema ključna za vaš objekat.",
     image: "/images/portfolio_2.jpg",
     date: "17. Avg 2026.",

@@ -54,7 +54,7 @@ export default function BlogPost() {
           </p>
 
           <p className="mb-6">
-            Međutim, elektroinstalacije nisu usluga kod koje postoji jedna univerzalna cena po kvadratnom metru. Konačna vrednost zavisi od velikog broja faktora – od namene objekta i obima radova do vrste materijala i tehničkih zahteva.
+            Međutim, elektroinstalacije nisu usluga kod koje postoji jedna univerzalna cena po kvadratnom metru. Konačna vrednost zavisi od velikog broja faktora, od namene objekta i obima radova do vrste materijala i tehničkih zahteva.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Od čega zavisi cena?</h2>

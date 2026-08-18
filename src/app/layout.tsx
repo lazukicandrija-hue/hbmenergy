@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'BHM Energy | Elektroinstalacije i fina galanterija – Novi Sad, Srbija',
+  title: 'BHM Energy | Elektroinstalacije i fina galanterija, Novi Sad, Srbija',
   description:
-    'BHM Energy – profesionalne elektroinstalacije, fina elektrogalanterija, LED rasveta i razvodne table. Kvalitetna usluga na teritoriji cele Srbije.',
+    'BHM Energy, profesionalne elektroinstalacije, fina elektrogalanterija, LED rasveta i razvodne table. Kvalitetna usluga na teritoriji cele Srbije.',
   keywords: [
     'elektroinstalacije',
     'fina galanterija',

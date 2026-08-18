@@ -60,7 +60,7 @@ export default function BlogPost() {
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">Sve počinje dobrim planiranjem</h2>
 
           <p className="mb-6">
-            Pre početka izvođenja radova potrebno je jasno definisati šta objekat treba da podrži – od osnovnog napajanja i rasvete do sistema slabe struje, gromobranske zaštite, uzemljenja i drugih instalacija.
+            Pre početka izvođenja radova potrebno je jasno definisati šta objekat treba da podrži, od osnovnog napajanja i rasvete do sistema slabe struje, gromobranske zaštite, uzemljenja i drugih instalacija.
           </p>
 
           <p className="mb-6">
@@ -162,12 +162,12 @@ export default function BlogPost() {
 
           <div className="bg-white/5 border border-white/10 rounded-2xl p-8 mt-16 mb-8 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-bhm-orange/10 rounded-full blur-3xl" />
-            <h2 className="text-2xl font-bold text-white mb-4 mt-0 relative z-10">BHM Energy – partner za elektroinstalacije</h2>
+            <h2 className="text-2xl font-bold text-white mb-4 mt-0 relative z-10">BHM Energy, partner za elektroinstalacije</h2>
             <p className="mb-4 relative z-10">
               BHM Energy pruža usluge projektovanja i izvođenja elektroinstalacija za stambene, poslovne i industrijske objekte. Naš pristup zasniva se na kvalitetnoj pripremi, preciznom izvođenju i usklađenosti radova sa potrebama i tehničkim zahtevima objekta.
             </p>
             <p className="mb-6 relative z-10">
-              Od projektovanja i pripreme, preko izvođenja elektroinstalacija, slabe struje, rasvete, gromobranske zaštite i uzemljenja, do servisa i održavanja – cilj je da svaki deo sistema bude pouzdan i funkcionalan.
+              Od projektovanja i pripreme, preko izvođenja elektroinstalacija, slabe struje, rasvete, gromobranske zaštite i uzemljenja, do servisa i održavanja, cilj je da svaki deo sistema bude pouzdan i funkcionalan.
             </p>
             <p className="font-semibold text-white mb-8 relative z-10">
               Gradite novi objekat? Razgovarajmo o elektro delu vašeg projekta.

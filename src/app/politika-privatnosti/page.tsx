@@ -18,7 +18,7 @@ export default function PolitikaPrivatnosti() {
           <h2 className="text-2xl font-semibold text-white mt-8 mb-4">1. Podaci o rukovaocu</h2>
           <p>
             Rukovalac podacima je:<br />
-            <strong>COAL PROMET DOO PREDUZEĆE ZA TRGOVINU I USLUGE, NOVI SAD - OGRANAK BHM Energy</strong><br />
+            <strong>COAL PROMET DOO PREDUZEĆE ZA TRGOVINU I USLUGE, NOVI SAD, OGRANAK BHM Energy</strong><br />
             Adresa: Rumenački put 38, Novi Sad, Srbija<br />
             PIB: 104234254<br />
             Matični broj: 20120754<br />

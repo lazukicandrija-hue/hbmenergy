@@ -73,7 +73,7 @@ export default function AboutUs() {
                   Iza BHM Energy stoji tim sa iskustvom u realizaciji elektro radova na različitim vrstama objekata.
                 </p>
                 <p>
-                  Razumemo da svaki projekat ima svoje specifičnosti – od tehničkih zahteva i projektne dokumentacije, do rokova, koordinacije na gradilištu i potreba krajnjeg korisnika.
+                  Razumemo da svaki projekat ima svoje specifičnosti, od tehničkih zahteva i projektne dokumentacije, do rokova, koordinacije na gradilištu i potreba krajnjeg korisnika.
                 </p>
                 <p>
                   Zato svakom poslu pristupamo individualno, sa jasnim fokusom na kvalitet izvedenih radova i pouzdanost sistema koji ostaju deo objekta godinama nakon završetka izgradnje.
@@ -98,7 +98,7 @@ export default function AboutUs() {
                 className="space-y-4 text-gray-300 text-lg leading-relaxed"
               >
                 <p>
-                  Želimo da BHM Energy bude više od izvođača elektro radova – <strong className="text-white">partner na kojeg investitori, izvođači i vlasnici objekata mogu da računaju.</strong>
+                  Želimo da BHM Energy bude više od izvođača elektro radova, <strong className="text-white">partner na kojeg investitori, izvođači i vlasnici objekata mogu da računaju.</strong>
                 </p>
                 <p>
                   Gradimo dugoročne odnose kroz profesionalan pristup, odgovornost prema poslu i kvalitet koji se vidi u svakom detalju izvedenog sistema.
@@ -133,7 +133,7 @@ export default function AboutUs() {
               
               <div className="space-y-4 text-gray-300 mb-8 leading-relaxed">
                 <p>
-                  Elektroinstalacije posmatramo kao celinu – od prvog tehničkog rešenja i pripreme, preko organizacije i izvođenja radova, do završne kontrole i održavanja.
+                  Elektroinstalacije posmatramo kao celinu, od prvog tehničkog rešenja i pripreme, preko organizacije i izvođenja radova, do završne kontrole i održavanja.
                 </p>
                 <p className="font-medium text-white pt-2">Naše usluge obuhvataju:</p>
               </div>

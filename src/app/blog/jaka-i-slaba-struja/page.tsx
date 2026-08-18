@@ -15,7 +15,7 @@ export default function BlogPost() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/portfolio_2.jpg"
-            alt="Jaka i slaba struja – koja je razlika?"
+            alt="Jaka i slaba struja, koja je razlika?"
             fill
             className="object-cover opacity-20"
             priority
@@ -30,7 +30,7 @@ export default function BlogPost() {
           </Link>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Jaka i slaba struja – koja je razlika?
+            Jaka i slaba struja, koja je razlika?
           </h1>
           
           <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">

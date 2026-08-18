@@ -181,7 +181,7 @@ const Services = () => {
             transition={{ delay: 0.1 }}
             className="text-gray-400 mt-4 max-w-2xl mx-auto"
           >
-            Kompletna elektroenergetska rešenja – od projektovanja do izvođenja, puštanja u rad i održavanja.
+            Kompletna elektroenergetska rešenja, od projektovanja do izvođenja, puštanja u rad i održavanja.
           </motion.p>
         </div>
 

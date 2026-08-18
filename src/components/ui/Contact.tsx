@@ -75,8 +75,8 @@ export default function Contact() {
               <Clock className="text-bhm-orange w-6 h-6 flex-shrink-0 mt-1" />
               <div className="text-gray-300 font-medium space-y-1">
                 <p className="text-white mb-2">Radno vreme</p>
-                <p className="text-sm">Pon - Pet: 08:00 - 16:00</p>
-                <p className="text-sm">Subota: 08:00 - 14:00</p>
+                <p className="text-sm">Pon do Pet: 08:00 do 16:00</p>
+                <p className="text-sm">Subota: 08:00 do 14:00</p>
                 <p className="text-sm">Nedelja: Neradni dan</p>
               </div>
             </div>

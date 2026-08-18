@@ -54,7 +54,7 @@ export default function BlogPost() {
           </p>
 
           <p className="mb-6">
-            Bez obzira da li je u pitanju stambena zgrada, poslovni prostor, hala ili industrijski objekat, proces realizacije ne počinje prvim kablom koji se postavi na objektu. Pravi posao počinje mnogo ranije – analizom projekta, definisanjem obima radova i organizacijom izvođenja.
+            Bez obzira da li je u pitanju stambena zgrada, poslovni prostor, hala ili industrijski objekat, proces realizacije ne počinje prvim kablom koji se postavi na objektu. Pravi posao počinje mnogo ranije, analizom projekta, definisanjem obima radova i organizacijom izvođenja.
           </p>
 
           <h2 className="text-3xl font-bold text-white mt-12 mb-6">1. Analiza projekta i potreba objekta</h2>
