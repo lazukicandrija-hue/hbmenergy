@@ -31,7 +31,7 @@ export default function Contact() {
     formDataObj.append('Poruka', formData.message)
 
     try {
-      const scriptUrl = 'https://script.google.com/macros/s/AKfycbyt5V55k_xVDjcfuuiyunkD7CZe9wex82tJ5yDGMPM/exec'
+      const scriptUrl = 'https://script.google.com/macros/s/AKfycbzUBWUNND-Zb8IkPp_RwWdZV8oggRxQDb55pHhJeV6vrKiuVn_P1ase06jCbC5CDJwH/exec'
       
       await fetch(scriptUrl, {
         method: 'POST',
