@@ -31,28 +31,27 @@ export default function Contact() {
     formDataObj.append('Poruka', formData.message)
 
     try {
-      // NOTE: Using /exec instead of /dev as /dev only works for the script owner
       const scriptUrl = 'https://script.google.com/macros/s/AKfycbyt5V55k_xVDjcfuuiyunkD7CZe9wex82tJ5yDGMPM/exec'
       
-      const response = await fetch(scriptUrl, {
+      await fetch(scriptUrl, {
         method: 'POST',
         body: formDataObj,
+        mode: 'no-cors', // Opaque request to bypass CORS restrictions of Google Apps Script
       })
 
-      if (response.ok) {
-        setSubmitStatus('success')
-        setFormData({
-          name: '',
-          phone: '',
-          email: '',
-          location: '',
-          propertyType: '',
-          message: ''
-        })
-        setTimeout(() => setSubmitStatus('idle'), 5000)
-      } else {
-        setSubmitStatus('error')
-      }
+      // When using no-cors mode, the response is opaque (status 0).
+      // If fetch didn't throw a network error, we consider it a success.
+      setSubmitStatus('success')
+      setFormData({
+        name: '',
+        phone: '',
+        email: '',
+        location: '',
+        propertyType: '',
+        message: ''
+      })
+      setTimeout(() => setSubmitStatus('idle'), 5000)
+
     } catch (error) {
       console.error('Greška pri slanju forme:', error)
       setSubmitStatus('error')
