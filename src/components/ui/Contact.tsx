@@ -14,9 +14,51 @@ export default function Contact() {
     message: ''
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    alert('Hvala na interesovanju. Vaš upit je uspešno poslat!')
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+
+    const formDataObj = new FormData()
+    formDataObj.append('Ime', formData.name)
+    formDataObj.append('Telefon', formData.phone)
+    formDataObj.append('Email', formData.email)
+    formDataObj.append('Lokacija', formData.location)
+    formDataObj.append('Tip_Objekta', formData.propertyType)
+    formDataObj.append('Poruka', formData.message)
+
+    try {
+      // NOTE: Using /exec instead of /dev as /dev only works for the script owner
+      const scriptUrl = 'https://script.google.com/macros/s/AKfycbyt5V55k_xVDjcfuuiyunkD7CZe9wex82tJ5yDGMPM/exec'
+      
+      const response = await fetch(scriptUrl, {
+        method: 'POST',
+        body: formDataObj,
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({
+          name: '',
+          phone: '',
+          email: '',
+          location: '',
+          propertyType: '',
+          message: ''
+        })
+        setTimeout(() => setSubmitStatus('idle'), 5000)
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      console.error('Greška pri slanju forme:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -28,7 +70,7 @@ export default function Contact() {
   const labelStyles = "text-sm font-medium text-gray-400 mb-2 block"
 
   return (
-    <section id="contact" className="py-24 bg-bhm-dark-50/30">
+    <section id="contact" className="relative z-10 py-24 bg-bhm-dark-50/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Kontaktirajte Nas</h2>
@@ -183,12 +225,25 @@ export default function Contact() {
                 ></textarea>
               </div>
 
+              {submitStatus === 'success' && (
+                <div className="bg-green-500/10 border border-green-500/20 text-green-400 p-4 rounded-xl text-center">
+                  Vaš upit je uspešno poslat! Javićemo vam se uskoro.
+                </div>
+              )}
+              
+              {submitStatus === 'error' && (
+                <div className="bg-red-500/10 border border-red-500/20 text-red-400 p-4 rounded-xl text-center">
+                  Došlo je do greške pri slanju upita. Pokušajte ponovo kasnije ili nas pozovite.
+                </div>
+              )}
+
               <button
                 type="submit"
-                className="btn-electric w-full flex items-center justify-center gap-2 mt-4 py-3"
+                disabled={isSubmitting}
+                className="btn-electric w-full flex items-center justify-center gap-2 mt-4 py-3 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Pošalji Upit
-                <Send className="w-5 h-5" />
+                {isSubmitting ? 'Slanje u toku...' : 'Pošalji Upit'}
+                {!isSubmitting && <Send className="w-5 h-5" />}
               </button>
             </form>
           </motion.div>
