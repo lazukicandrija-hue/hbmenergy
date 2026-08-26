@@ -27,7 +27,7 @@ export default function Contact() {
     formDataObj.append('Telefon', formData.phone)
     formDataObj.append('Email', formData.email)
     formDataObj.append('Lokacija', formData.location)
-    formDataObj.append('Tip_Objekta', formData.propertyType)
+    formDataObj.append('Tip objekta', formData.propertyType)
     formDataObj.append('Poruka', formData.message)
 
     try {
