@@ -85,9 +85,9 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-semibold text-white mb-6">Kontakt informacije</h3>
+            <h3 className="relative z-10 text-xl font-semibold text-white mb-6">Kontakt informacije</h3>
             
-            <div className="flex flex-col mb-8">
+            <div className="relative z-10 flex flex-col mb-8">
               <div className="flex items-center gap-4 py-4 border-b border-white/5">
                 <div className="w-12 h-12 rounded-xl bg-bhm-orange/10 flex items-center justify-center">
                   <Mail className="text-bhm-orange w-6 h-6" />
@@ -113,7 +113,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 py-4 bg-white/5 rounded-xl px-6 mb-6">
+            <div className="relative z-10 flex items-start gap-4 py-4 bg-white/5 rounded-xl px-6 mb-6">
               <Clock className="text-bhm-orange w-6 h-6 flex-shrink-0 mt-1" />
               <div className="text-gray-300 font-medium space-y-1">
                 <p className="text-white mb-2">Radno vreme</p>
@@ -123,7 +123,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="py-4 bg-white/5 rounded-xl px-6 text-sm text-gray-400 leading-relaxed border border-white/5">
+            <div className="relative z-10 py-4 bg-white/5 rounded-xl px-6 text-sm text-gray-400 leading-relaxed border border-white/5">
               <strong className="text-gray-300 block mb-1">COAL PROMET DOO PREDUZEĆE ZA TRGOVINU I USLUGE, NOVI SAD</strong>
               OGRANAK BHM Energy<br />
               PIB: 104234254<br />
@@ -138,7 +138,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit} className="relative z-10 space-y-5">
               <div>
                 <label htmlFor="name" className={labelStyles}>Ime i prezime</label>
                 <input
