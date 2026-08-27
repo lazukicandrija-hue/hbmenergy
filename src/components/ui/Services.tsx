@@ -170,9 +170,9 @@ const Services = () => {
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 uppercase"
+            className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400"
           >
-            USLUGE
+            Usluge
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: -20 }}
