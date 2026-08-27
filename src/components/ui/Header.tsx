@@ -8,8 +8,9 @@ import { Menu, X } from 'lucide-react';
 const navLinks = [
   { name: 'Početna', href: '#hero' },
   { name: 'Usluge', href: '#services' },
-  { name: 'Blog', href: '#blog' },
-  { name: 'Najčešća pitanja', href: '#faq' },
+  { name: 'Projekti', href: '#portfolio' },
+  { name: 'Zatražite ponudu', href: '#contact' },
+  { name: 'Blog i FAQ', href: '#blog' },
   { name: 'Kontakt', href: '#contact' },
 ];
 
