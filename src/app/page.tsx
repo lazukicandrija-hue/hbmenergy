@@ -17,9 +17,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <Portfolio />
       <TargetAudience />
       <Process />
-      <Portfolio />
       <AboutUs />
       <BlogSection />
       <FAQ />
