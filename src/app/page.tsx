@@ -16,11 +16,11 @@ export default function Home() {
     <main className="relative overflow-hidden">
       <Header />
       <Hero />
-      <AboutUs />
       <Services />
       <TargetAudience />
       <Process />
       <Portfolio />
+      <AboutUs />
       <BlogSection />
       <FAQ />
       <Contact />
